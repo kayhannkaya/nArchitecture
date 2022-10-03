@@ -3,6 +3,6 @@
 public enum AuthenticatorType
 {
     None = 0,
-    Email = 1,
-    Otp = 2
+    Email = 1,  //two faktoring giriş yapısı
+    Otp = 2    //çeşitli yazılımlarla sağlanan giriş yöntemi
 }
